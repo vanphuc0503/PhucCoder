@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="256dp"
+    android:orientation="vertical">
+    
+    <TextView
+        android:id="@+id/text_view_expanded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is a custom notification"
+        android:gravity="center_horizontal"
+        android:padding="8dp"
+        style="@style/TextAppearance.Compat.Notification"
+        android:background="@android:color/holo_red_light"
+        android:textColor="#fff"/>
+    
+    <ImageView
+        android:id="@+id/image_view_expanded"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/lotti"
+        android:scaleType="centerCrop"/>
+
+</LinearLayout>
