@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:text="www.duongmich.com"
+            android:textColor="#9C27B0"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@android:drawable/ic_lock_lock"
+            android:drawablePadding="20sp"
+            android:hint="Username"
+            android:inputType="number"
+            android:lines="1" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OK" />
+
+        <!--Nếu dùng indeterminate thì 3 thuộc tính trên bị vô hiệu hóa -->
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="30"
+            android:secondaryProgress="50" />
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="30"
+            android:thumb="@android:drawable/ic_media_play" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/duongmich" />
+    </LinearLayout>
+
+</ScrollView>

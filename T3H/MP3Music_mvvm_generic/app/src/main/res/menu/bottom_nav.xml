@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_song"
+        android:icon="@drawable/ic_song"
+        android:title="Song" />
+    <item
+        android:id="@+id/nav_album"
+        android:icon="@drawable/ic_album"
+        android:title="Album" />
+    <item
+        android:id="@+id/nav_artist"
+        android:icon="@drawable/ic_artist"
+        android:title="Artist" />
+</menu>

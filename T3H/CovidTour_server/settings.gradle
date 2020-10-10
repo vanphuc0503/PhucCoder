@@ -1,0 +1,3 @@
+include ':BaseModule'
+include ':app'
+rootProject.name = "CovidTour"

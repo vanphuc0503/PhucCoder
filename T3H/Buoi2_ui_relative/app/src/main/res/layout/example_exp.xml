@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_center"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/black">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/purple"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/rl_center"
+        android:layout_toLeftOf="@id/rl_center"
+        android:background="@android:color/holo_blue_dark">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/red"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rl_center"
+        android:layout_toRightOf="@id/rl_center"
+        android:background="@android:color/holo_red_light">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/red"
+        android:layout_toRightOf="@id/red"
+        android:background="#548">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/red"
+        android:layout_toLeftOf="@id/red"
+        android:background="#f0f"
+        android:id="@+id/mot">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/purple"
+        android:layout_toLeftOf="@id/purple"
+        android:background="@android:color/holo_green_dark">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/rl_center"
+        android:layout_toLeftOf="@id/rl_center"
+        android:background="#ff3">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tren"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/rl_center"
+        android:layout_toRightOf="@id/rl_center"
+        android:background="#68f">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/tren"
+        android:layout_toLeftOf="@id/tren"
+        android:background="#f40">
+
+    </RelativeLayout>
+</RelativeLayout>

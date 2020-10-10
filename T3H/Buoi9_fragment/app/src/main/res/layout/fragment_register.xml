@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Register"
+        android:gravity="center"
+        android:padding="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:textSize="28sp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User name"
+        android:id="@+id/edt_reg_user_name"/>
+
+    <EditText
+        android:id="@+id/edt_reg_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"/>
+
+    <Button
+        android:id="@+id/btn_reg_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"/>
+
+
+</LinearLayout>

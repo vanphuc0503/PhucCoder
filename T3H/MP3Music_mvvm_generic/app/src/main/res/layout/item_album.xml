@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="item"
+            type="com.t3h.mp3music.model.Album" />
+        <variable
+            name="listener"
+            type="com.t3h.mp3music.ui.screen.MediaListener&lt;com.t3h.mp3music.model.Album>" />
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:onClick="@{v->listener.onItemMediaCLick(item)">
+        <ImageView
+            android:id="@+id/im_thumb"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintTop_toTopOf="parent"
+            thumb="@{item.id}"/>
+        <TextView
+            android:text="@{item.name}"
+            android:padding="16dp"
+            android:lines="2"
+            android:gravity="center"
+            android:background="#eee"
+            app:layout_constraintTop_toBottomOf="@id/im_thumb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

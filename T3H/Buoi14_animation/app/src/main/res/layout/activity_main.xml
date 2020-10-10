@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="listener"
+            type="com.example.buoi14.MainListener" />
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:gravity="center_horizontal">
+
+        <!--    <Button-->
+        <!--        android:background="@drawable/state_drawable"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"/>-->
+
+        <Button
+            android:id="@+id/alpha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alpha"
+            android:onClick="@{v -> listener.onAlphaClicked(v)}"
+            android:background="@drawable/state_drawable"/>
+
+        <Button
+            android:id="@+id/rotate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rotate"
+            android:onClick="@{v -> listener.onRotateClicked(v)}"
+            android:background="@drawable/state_drawable"/>
+
+        <Button
+            android:id="@+id/translate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/state_drawable"
+            android:onClick="@{v -> listener.onTranslateClicked(v)}"
+            android:text="Translate"/>
+
+        <Button
+            android:id="@+id/scale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{v -> listener.onScaleClicked(v)}"
+            android:background="@drawable/state_drawable"
+            android:text="Scale"/>
+
+        <Button
+            android:id="@+id/set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="@{v -> listener.onSetClicked(v)}"
+            android:background="@drawable/state_drawable"
+            android:text="Set"/>
+
+
+    </LinearLayout>
+</layout>

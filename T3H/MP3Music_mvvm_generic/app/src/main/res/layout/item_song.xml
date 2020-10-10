@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:android="http://schemas.android.com/apk/res/android">
+   <data>
+       <variable
+           name="item"
+           type="com.t3h.mp3music.model.Song" />
+       <variable
+           name="listener"
+           type="com.t3h.mp3music.ui.screen.MediaListener&lt;com.t3h.mp3music.model.Song>" />
+   </data>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="5dp"
+        android:onClick="@{v->listener.onItemMediaCLick(item)}"
+        android:layout_marginBottom="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3B809F"
+
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                thumb="@{item.albumId}"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@{item.title}"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@{item.artist}"
+                    android:textColor="#C1BBBB"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>
