@@ -12,7 +12,7 @@ import com.vanphuc.aidldemo.MyAidlInterface
 class MainActivity : AppCompatActivity() {
     var aidlColorService: MyAidlInterface? = null
 
-    val connection = object : ServiceConnection {
+    private val connection = object : ServiceConnection {
         override fun onServiceConnected(p0: ComponentName?, p1: IBinder?) {
             aidlColorService = MyAidlInterface.Stub.asInterface(p1)
         }
