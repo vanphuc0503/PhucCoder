@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Messenger Service</string>
+    <string name="text_start_service">Start Service</string>
+    <string name="text_stop_service">Stop Service</string>
+</resources>

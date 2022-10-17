@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MessengerDemo</string>
+    <string name="text_bind_service">Bind Service</string>
+    <string name="text_unbind_service">UnBind Service</string>
+    <string name="text_get_random_number">Get Random Number</string>
+    <string name="text_number">No Number</string>
+</resources>
