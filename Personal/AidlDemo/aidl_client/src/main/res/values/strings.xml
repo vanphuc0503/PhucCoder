@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">aidl_client</string>
+    <string name="text_change_color">Text change Color</string>
+</resources>

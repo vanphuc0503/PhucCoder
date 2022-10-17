@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AidlDemo</string>
+      <string name="title_aidl_client">Module Title</string>
+</resources>
