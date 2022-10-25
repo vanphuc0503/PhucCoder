@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DataStorage</string>
+    <string name="text_save_data">Save Data</string>
+    <string name="text_read_data">Read Data</string>
+    <string name="text_save_data_by_cache">save data by cache</string>
+    <string name="text_read_data_by_cache">read data by cache</string>
+</resources>
