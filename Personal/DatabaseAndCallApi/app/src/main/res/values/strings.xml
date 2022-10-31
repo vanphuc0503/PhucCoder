@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DatabaseAndCallApi</string>
+    <string name="text_load_photo">Load Photo</string>
+</resources>

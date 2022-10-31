@@ -1,0 +1,7 @@
+com.vanphuc.coroutinedemo.test.app-androidTest-0 D:\Phuc\PhucCoder\Personal\CoroutineDemo\app\build\generated\res\resValues\androidTest\debug
+com.vanphuc.coroutinedemo.test.app-androidTest-1 D:\Phuc\PhucCoder\Personal\CoroutineDemo\app\build\generated\res\rs\androidTest\debug
+com.vanphuc.coroutinedemo.test.app-mergeDebugAndroidTestResources-2 D:\Phuc\PhucCoder\Personal\CoroutineDemo\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.vanphuc.coroutinedemo.test.app-mergeDebugAndroidTestResources-3 D:\Phuc\PhucCoder\Personal\CoroutineDemo\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.vanphuc.coroutinedemo.test.app-merged_res-4 D:\Phuc\PhucCoder\Personal\CoroutineDemo\app\build\intermediates\merged_res\debugAndroidTest
+com.vanphuc.coroutinedemo.test.app-androidTest-5 D:\Phuc\PhucCoder\Personal\CoroutineDemo\app\src\androidTest\res
+com.vanphuc.coroutinedemo.test.app-androidTestDebug-6 D:\Phuc\PhucCoder\Personal\CoroutineDemo\app\src\androidTestDebug\res

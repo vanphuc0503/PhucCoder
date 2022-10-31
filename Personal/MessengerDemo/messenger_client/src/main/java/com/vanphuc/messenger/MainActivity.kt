@@ -6,6 +6,7 @@ import android.content.Intent
 import android.content.ServiceConnection
 import android.os.*
 import android.util.Log
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.vanphuc.messengerdemo.R
@@ -63,6 +64,9 @@ class MainActivity : AppCompatActivity(), MainActivityListener {
             component = ComponentName("com.vanphuc.messenger_service", "com.vanphuc.messenger_service.RemoteService")
             setPackage(packageName)
         }
+
+        val ds = Button(this)
+        ds.sur
     }
 
     private fun onSetup() {
